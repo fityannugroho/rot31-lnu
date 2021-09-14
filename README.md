@@ -6,7 +6,7 @@
 
 The difference between ROT13 and ROT31-LNU lies in the key. **ROT31-LNU's key** is using 62 characters from 'a' to 'z' (*lowercase*), '0' to '9' (*numeric*), and 'A' to 'Z' (*uppercase*). This is where 'LNU' word comes from.
 
-![The ROT31-LNU Key](ROT31-LNU-key.png)
+![The ROT31-LNU Key](rot31-lnu-key.png)
 
 The key is then divided in the middle into 2 parts (62 / 2 = **31 characters**), then each character is paired to another part, so that the character 'A' pairs with the character '5', 'B' with '6', and so on.
 
