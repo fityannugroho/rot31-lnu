@@ -5,12 +5,12 @@ use Fityan\Rot31Lnu\Algorithm;
 require_once '../src/algorithm.php';
 
 
-$rotLnu = new Algorithm();
+$rot31Lnu = new Algorithm();
 
 $plaintext = 'Hello World!';
-$chipertext = $rotLnu->crypt($plaintext);
-$decyptResult = $rotLnu->crypt($chipertext);
+$ciphertext = $rot31Lnu->crypt($plaintext);
+$decyptResult = $rot31Lnu->crypt($ciphertext);
 
 echo 'Plaintext: ' . $plaintext . '<br>';
-echo 'Chipertext: ' . $chipertext . '<br>';
+echo 'ciphertext: ' . $ciphertext . '<br>';
 echo 'Decypt Result: ' . $decyptResult . '<br>';

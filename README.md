@@ -2,7 +2,7 @@
 
 ## Definition
 
-**ROT31-LNU** is a chiper algorithm that using symmetric key. It is adopted from the previously invented [ROT13](https://en.wikipedia.org/wiki/ROT13) and use the same way to encrypt and decrypt.
+**ROT31-LNU** is a cipher algorithm that using symmetric key. It is adopted from the previously invented [ROT13](https://en.wikipedia.org/wiki/ROT13) and use the same way to encrypt and decrypt.
 
 The difference between ROT13 and ROT31-LNU lies in the key. **ROT31-LNU's key** is using 62 characters from 'a' to 'z' (*lowercase*), '0' to '9' (*numeric*), and 'A' to 'Z' (*uppercase*). This is where 'LNU' word comes from.
 
@@ -20,9 +20,9 @@ For unlisted characters, such as space characters and symbol characters ('!', '$
 
 ## Usage
 
-This chiper can be used to hiding the text to become not human-readable, because its key includes all human-readable characters.
+This cipher can be used to hiding the text to become not human-readable, because its key includes all human-readable characters.
 
-**WARNING!** This chiper algorithm is not suitable to hiding a very sensitive data, such as password, payment info, etc.
+**WARNING!** This cipher algorithm is not suitable to hiding a very sensitive data, such as password, payment info, etc.
 
 ## Requirement
 

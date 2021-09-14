@@ -9,7 +9,7 @@ if (!function_exists('rot31lnu_crypt')) {
     /**
      * Global function to provide encryption or decryption with ROT31-LNU.
      *
-     * @param string $text The plain text, or the chiper text.
+     * @param string $text The plain text, or the cipher text.
      *
      * @return string
      */
